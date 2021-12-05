@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "WebNote",
+    "version": "1.0",
+
+    "description": "Write notes for your WebWork assignments.",
+
+    "icons": {
+        "48": "./webnote-48.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["https://*/webwork2/*/*/*/*"],
+            "js": ["webnote.js"]
+        }
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "webnote@example.com"
+        }
+      }
+      
+}
