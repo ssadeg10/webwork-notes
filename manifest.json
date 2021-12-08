@@ -20,6 +20,9 @@
         "gecko": {
           "id": "webnote@example.com"
         }
-      }
-      
+    },
+
+    "permissions": [
+        "storage"
+    ]
 }
