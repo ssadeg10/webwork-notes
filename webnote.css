@@ -1,0 +1,7 @@
+.alert-success{
+    position: absolute;
+    top: 0;
+    right: 1em;
+    padding: 1em 2em;
+    z-index: 9999;
+  }
