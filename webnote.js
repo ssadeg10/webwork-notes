@@ -13,7 +13,7 @@ var webnoteButton = document.createElement("input");
 webnoteButton.className = "webnote btn btn-primary";
 webnoteButton.value = "Problem Notes";
 webnoteButton.type = "button";
-webnoteButton.style.margin = "0 0.5ex"
+webnoteButton.style.margin = "0 0.5ex";
 
 p.childNodes[0].style.margin = "0 0.5ex";
 p.appendChild(webnoteButton);
@@ -35,7 +35,7 @@ textAreaDiv.appendChild(textArea);
 // save button initialization
 var saveButton = document.createElement("input");
 saveButton.className = "webnote btn";
-saveButton.id = "saveButton"
+saveButton.id = "saveButton";
 saveButton.value = "Save";
 saveButton.type = "button";
 saveButton.style.margin = "0 0.5ex";
