@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "WebNote",
+    "name": "WebWork Notes",
     "version": "1.0",
 
     "description": "Write notes for your WebWork assignments.",
@@ -22,7 +22,7 @@
 
     "browser_specific_settings": {
         "gecko": {
-          "id": "webnote@example.com"
+          "id": "webworknotes@example.com"
         }
     },
 
