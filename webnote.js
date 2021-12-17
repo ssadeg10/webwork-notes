@@ -9,7 +9,7 @@ const p = form.lastChild;
 form.setAttribute("accept-charset", "UTF-8");
 
 // note button initialization
-var webnoteButton = document.createElement("input");
+const webnoteButton = document.createElement("input");
 webnoteButton.className = "webnote btn btn-primary";
 webnoteButton.value = "Problem Notes";
 webnoteButton.type = "button";
@@ -19,21 +19,21 @@ p.childNodes[0].style.margin = "0 0.5ex";
 p.appendChild(webnoteButton);
 
 // div containing text area and save button
-var textAreaDiv = document.createElement("div");
+const textAreaDiv = document.createElement("div");
 textAreaDiv.id = "textAreaDiv";
 textAreaDiv.hidden = true;
 var hideBool = textAreaDiv.hidden;
 p.after(textAreaDiv);
 
 // text area initialization
-var textArea = document.createElement("textarea");
+const textArea = document.createElement("textarea");
 textArea.id = "tiny";
 textArea.rows = "5";
 textArea.cols = "40";
 textAreaDiv.appendChild(textArea);
 
 // save button initialization
-var saveButton = document.createElement("input");
+const saveButton = document.createElement("input");
 saveButton.className = "webnote btn";
 saveButton.id = "saveButton";
 saveButton.value = "Save";
@@ -42,7 +42,7 @@ saveButton.style.margin = "0 0.5ex";
 textAreaDiv.appendChild(saveButton);
 
 // save alert initialization
-var saveNotif = document.createElement("div");
+const saveNotif = document.createElement("div");
 saveNotif.className = "alert alert-success";
 saveNotif.role = "alert";
 saveNotif.innerText = "Your note has been saved";
@@ -104,8 +104,8 @@ function toggleHidden(){
     textAreaDiv.hidden = !textHidden;
 }
 
-let breadcrumb = document.querySelector("ul.breadcrumb");
-let problemURL = 
+const breadcrumb = document.querySelector("ul.breadcrumb");
+const problemURL = 
     breadcrumb.childNodes[breadcrumb.childNodes.length - 1].baseURI;
 var problemPath = problemURL.substr(0, problemURL.indexOf('?'));
 

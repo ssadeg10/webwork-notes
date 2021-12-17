@@ -14,10 +14,9 @@
             "matches": ["https://*/webwork2/*/*/*/*"],
             "js": [
                 "./thirdParty/jquery-3.6.0.min.js",
-                "./thirdParty/mathquill-0.10.1/mathquill.min.js",
                 "./webnote.js"
             ],
-            "css": ["./webnote.css", "./thirdParty/mathquill-0.10.1/mathquill.css"]
+            "css": ["./webnote.css"]
         }
     ],
 
