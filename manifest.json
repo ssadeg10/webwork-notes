@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "WebWork Notes",
+    "name": "WeBWorK Notes",
     "version": "1.0",
 
-    "description": "Write notes for your WebWork assignments.",
+    "description": "Take notes for your WeBWorK assignments.",
 
     "icons": {
         "48": "./webnote-48.png"

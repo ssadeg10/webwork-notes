@@ -90,25 +90,6 @@ const infButton = document.createElement("button");
 insertGroup.append(sqrtButton, piButton, infButton);
 buttonsDiv.appendChild(insertGroup);
 
-// Testing mathquill integration for later release:
-/*
-let test = document.createElement("p")
-let testSpan = document.createElement("span");
-testSpan.id = "problem";
-testSpan.innerText = "ax^2 + bx + c = 0";
-test.appendChild(testSpan);
-textAreaDiv.appendChild(test);
-
-let testScript = document.createElement('script');
-testScript.innerHTML = 
-`
-var problemSpan = document.getElementById('problem');
-MQ.MathField(problemSpan);
-`;
-
-document.head.appendChild(testScript);
-*/
-
 // note button listener for hiding note panel
 webnoteButton.addEventListener("click", function(){
     if(hideBool){
